@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.syonet.mobile.featureDetection" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Feature Detection</name>
+    <description>Feature detection plugin</description>
+    <license>MIT</license>
+
+    <js-module name="FeatureDetection" src="www/featureDetection.js">
+        <clobbers target="cordova.plugins.featureDetection" />
+    </js-module>
+    <engines>
+        <engine name="cordova" version="3.6.3"></engine>
+    </engines>
+    <platform name="android">
+        <source-file src="src/android/com/syonet/mobile/featureDetection/FeatureDetection.java"
+                     target-dir="src/com/syonet/mobile/featureDetection"></source-file>
+    </platform>
+</plugin>
