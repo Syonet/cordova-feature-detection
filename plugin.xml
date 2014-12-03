@@ -13,5 +13,11 @@
     <platform name="android">
         <source-file src="src/android/com/syonet/mobile/featuredetection/FeatureDetection.java"
                      target-dir="src/com/syonet/mobile/featuredetection"></source-file>
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="FeatureDetection">
+                <param name="android-package" value="com.syonet.mobile.featuredetection.FeatureDetection" />
+            </feature>
+        </config-file>
     </platform>
 </plugin>
