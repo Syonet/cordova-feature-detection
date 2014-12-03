@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.syonet.mobile.featureDetection" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Feature Detection</name>
-    <description>Feature detection plugin</description>
+    <description>Cordova plugin for device feature detection.</description>
     <license>MIT</license>
 
     <js-module name="FeatureDetection" src="www/featureDetection.js">
