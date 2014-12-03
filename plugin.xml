@@ -8,7 +8,7 @@
         <clobbers target="cordova.plugins.featureDetection" />
     </js-module>
     <engines>
-        <engine name="cordova" version="3.6.3"></engine>
+        <engine name="cordova" version=">=3.6.0"></engine>
     </engines>
     <platform name="android">
         <source-file src="src/android/com/syonet/mobile/featureDetection/FeatureDetection.java"
