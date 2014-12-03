@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin id="com.syonet.mobile.featureDetection" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Feature Detection</name>
+<plugin id="com.syonet.mobile.featuredetection" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FeatureDetection</name>
     <description>Cordova plugin for device feature detection.</description>
     <license>MIT</license>
 
@@ -11,7 +11,7 @@
         <engine name="cordova" version=">=3.6.0"></engine>
     </engines>
     <platform name="android">
-        <source-file src="src/android/com/syonet/mobile/featureDetection/FeatureDetection.java"
-                     target-dir="src/com/syonet/mobile/featureDetection"></source-file>
+        <source-file src="src/android/com/syonet/mobile/featuredetection/FeatureDetection.java"
+                     target-dir="src/com/syonet/mobile/featuredetection"></source-file>
     </platform>
 </plugin>
