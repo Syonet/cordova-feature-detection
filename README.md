@@ -5,6 +5,12 @@ Cordova plugin for device feature detection.
 * `camera` - Detects if a camera is available
 
 ## Installation
+Using npm:
+```shell
+phonegap plugin add cordova-plugin-feature-detection
+```
+
+Using deprecated plugin registry:
 ```shell
 cordova plugin add com.syonet.mobile.featuredetection
 ```
