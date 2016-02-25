@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-feature-detection",
+  "description": "Cordova plugin for device feature detection.",
+  "cordova": {
+    "id": "cordova-plugin-feature-detection",
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syonet/cordova-feature-detection.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Syonet",
+  "license": "MIT",
+  "homepage": "https://github.com/Syonet/cordova-feature-detection#readme"
+}
