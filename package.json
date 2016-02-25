@@ -1,5 +1,6 @@
 {
   "name": "cordova-plugin-feature-detection",
+  "version": "0.0.5", 
   "description": "Cordova plugin for device feature detection.",
   "cordova": {
     "id": "cordova-plugin-feature-detection",
